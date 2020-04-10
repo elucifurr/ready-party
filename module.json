@@ -1,0 +1,9 @@
+{
+    "disableAutoUpdate": true,
+    "name": "ready-party",
+    "author": "Elucifur",
+    "description": "Writes 'r' in party chat whenever you write 'r' in proxy chat",
+    "options": {
+        "niceName:": "Ready Party"
+    }
+}
