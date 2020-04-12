@@ -1,8 +1,11 @@
 {
-    "disableAutoUpdate": true,
+    "disableAutoUpdate": false,
     "name": "ready-party",
     "author": "Elucifur",
+    "supportUrl": "https://github.com/elucifurr/ready-party/issues",
     "description": "Writes 'r' in party chat whenever you write 'r' in proxy chat",
+    "version": "1",
+    "servers": ["https://raw.githubusercontent.com/elucifurr/ready-party/master/"],
     "options": {
         "niceName:": "Ready Party"
     }
