@@ -4,14 +4,10 @@ module.exports = function ReadyP(dispatch) {
 
 	command.add('r', {
 		$none() {
-			WriteRParty();
+			dispatch.send('C_CHAT', 1, {
+				channel: 1,
+				message: 'r'
+			});
 		}
 	});
-
-	function WriteRParty() {
-		dispatch.send('C_CHAT', 1, {
-			channel: 1,
-			message: 'r'
-		});
-	}
 };
